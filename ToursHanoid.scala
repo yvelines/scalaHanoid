@@ -21,7 +21,7 @@ object TowersOfHanoi {
         System.out.println("Move from "+simpleName(a)+" to "+simpleName(b));null
   }
  
-  implicit def moveN[P<Nat,A,B,C](implicit m1:Move[P,A,C,B],m2:Move[_0,A,B,C],m3:Move[P,C,B,A])
+  implicit def moveN[P<:Nat,A,B,C](implicit m1:Move[P,A,C,B],m2:Move[_0,A,B,C],m3:Move[P,C,B,A])
   	:Move[Succ[P],A,B,C] = null 
   
   def run[N<:Nat,A,B,C](implicit m:Move[N,A,B,C]) = null
