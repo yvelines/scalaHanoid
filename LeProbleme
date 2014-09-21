@@ -1,0 +1,4 @@
+Les tours de Hanoï est un jeu solitaire dont l'objectif est de déplacer les disques qui se trouvent sur une tour (par exemple ici la première tour, celle la plus à gauche) vers une autre tour (par exemple la dernière, celle la plus à droite) en suivant les règles suivantes :
+on ne peut déplacer que le disque se trouvant au sommet d'une tour
+on ne peut déplacer qu'un seul disque à la fois
+il est interdit de poser un disque sur un disque plus petit
